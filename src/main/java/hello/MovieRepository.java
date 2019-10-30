@@ -4,7 +4,6 @@ import javax.annotation.PostConstruct;
 import java.util.HashMap;
 import java.util.Map;
 
-import io.pheely.get_movie_web_service.Movie;
 import org.springframework.stereotype.Component;
 import org.springframework.util.Assert;
 

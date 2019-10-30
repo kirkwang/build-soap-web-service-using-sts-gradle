@@ -1,17 +1,19 @@
 package hello;
 
+import get_movie_web_service.GetMovieRequest;
+import get_movie_web_service.GetMovieResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
-import io.pheely.get_movie_web_service.GetMovieRequest;
-import io.pheely.get_movie_web_service.GetMovieResponse;
+//import io.pheely.get_movie_web_service.GetMovieRequest;
+//import io.pheely.get_movie_web_service.GetMovieResponse;
 
 @Endpoint
 public class MovieEndpoint {
-	private static final String NAMESPACE_URI = "http://pheely.io/get-movie-web-service";
+	private static final String NAMESPACE_URI = "http://localhost/get-movie-web-service";
 
 	private MovieRepository movieRepository;
 
